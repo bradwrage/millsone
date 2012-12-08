@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Apprentice</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	
+<div class="navbar navbar-static-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<div class="row">
+				<div class="span5">
+				<a class="brand" href="#">Millstone</a>
+				<ul class="nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Blog</a></li>
+      				<li><a href="#">About</a></li>
+      				</ul>
+				</div>
+				
+				<div class="span7">	
+					
+      			</div>
+    				
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+
+	
+
+<%= yield %>
+
+
+
+<div class="wrapper">
+	
+	</div class="push"></div>
+</div>
+<div class="footer">
+	<div class="container">
+		<p> links</p>
+	</div>
+</div>
+
+</body>
+</html>
