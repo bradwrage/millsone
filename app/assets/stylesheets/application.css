@@ -101,14 +101,16 @@ height: auto !important;
 height: 100%;
 margin: 0 auto -4em;
 }
-.footer, .push {
-height: 4em;
-background: #444;
-height: 500px;
+.footer {
+text-align: center;
+padding: 30px 0;
+margin-top: 70px;
+border-top: 1px solid #E5E5E5;
+background-color: whiteSmoke;
 }
-
-.footer, .push {
-clear: both;
+.footer p {
+margin-bottom: 0;
+color: #777;
 }
 
 @media (min-width: 1200px)

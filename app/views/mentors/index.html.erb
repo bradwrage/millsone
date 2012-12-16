@@ -3,6 +3,8 @@
 <h1>Mentors</h1>
 </div>
 
+<%= link_to "New Post", new_mentor_path, class: "btn btn-success" %>
+
 <% @mentors.each do |mentor| %>
 <div class="mentor">
   <strong> <%= mentor.name %> </strong>

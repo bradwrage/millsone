@@ -10,5 +10,16 @@
 
 .mentor p {
 	margin: 4px 0;
-
 }
+
+.mentor.hover{
+	background: #FAFAFA;
+}
+.mentor .admin {
+	display: none;
+}
+
+.mentor.hover .admin {
+	display: inline;
+}
+
